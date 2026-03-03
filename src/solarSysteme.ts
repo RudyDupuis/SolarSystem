@@ -104,7 +104,7 @@ export default function createSolarSystem(scene: THREE.Scene) {
   );
   scene.add(sun);
 
-  const sunLight = new THREE.PointLight(0xffffff, 5000, 0, 0);
+  const sunLight = new THREE.PointLight(0xffffff, 6, 0, 0);
   scene.add(sunLight);
 
   planetsData.forEach((planet) => {
